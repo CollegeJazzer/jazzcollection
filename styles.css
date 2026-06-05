@@ -1,29 +1,33 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Arial", sans-serif;
-  background: #111;
-  color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f47b20;
+  color: #000;
 }
 
 #page {
-  max-width: 780px;
+  width: 860px;
   margin: 0 auto;
-  padding: 36px 20px 48px;
+  padding: 28px;
+  background: #fff4e1;
+  border: 1px solid #d66219;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 12px;
-  letter-spacing: 0.04em;
+  margin-top: 0;
+  font-size: 26px;
+  color: #f47b20;
 }
 
 #nav {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
+  font-size: 13px;
+  color: #000;
 }
 
 #nav a {
-  color: #ffd166;
+  color: #000;
   text-decoration: none;
 }
 
@@ -32,45 +36,67 @@ h1 {
 }
 
 .intro {
-  font-size: 1.05rem;
-  line-height: 1.7;
-  margin-bottom: 28px;
-  max-width: 680px;
+  margin: 0 0 18px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000;
 }
 
 .artist-block {
-  background: rgba(255, 209, 102, 0.08);
-  border: 1px solid rgba(255, 209, 102, 0.18);
-  border-radius: 12px;
-  padding: 22px;
+  margin-bottom: 24px;
 }
 
 .artist-block h2 {
-  margin-top: 0;
-  color: #ffd166;
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #f47b20;
 }
 
-.artist-block ul {
-  list-style: none;
-  margin: 16px 0 0;
-  padding: 0;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0;
+  font-size: 14px;
+  background: #fff7eb;
+  color: #000;
 }
 
-.artist-block li {
-  margin-bottom: 10px;
+thead {
+  background: #ffd49d;
 }
 
-.artist-block a {
-  color: #ffffff;
-  text-decoration: none;
+th, td {
+  border: 1px solid #d66219;
+  padding: 10px 12px;
+  text-align: left;
+  color: #000;
 }
 
-.artist-block a:hover {
-  color: #ffd166;
+th:nth-child(3), td:nth-child(3) {
+  width: 90px;
+}
+
+th:nth-child(4), td:nth-child(4) {
+  width: 120px;
+}
+
+th {
+  font-weight: bold;
+  color: #000;
+}
+
+tbody tr:nth-child(odd) {
+  background: #fff0dc;
+}
+
+tbody tr:nth-child(even) {
+  background: #ffe3c2;
 }
 
 #footer {
-  margin-top: 32px;
-  font-size: 0.95rem;
-  opacity: 0.8;
+  margin-top: 28px;
+  font-size: 12px;
+  color: #000;
+  border-top: 1px solid #d66219;
+  padding-top: 10px;
 }
